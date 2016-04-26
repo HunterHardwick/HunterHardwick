@@ -277,6 +277,7 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
+	text-shadow: 2px 2px 4px #000000;
     background: url(../img/neature-img.jpeg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
@@ -288,6 +289,7 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
+	text-shadow: 2px 2px 4px #000000;
     background: url(../img/tetons-bg.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
