@@ -10,7 +10,13 @@
     <meta name="author" content="">
 
     <title>Hunter Hardwick</title>
-
+	             
+	<script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+	
+	<link rel="stylesheet" href="css/animate.css">
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -78,11 +84,11 @@
     <header class="intro">
         <div class="intro-body">
             <div class="container">
-                <div class="row">
+                <div class=>
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Portfolio</h1>
-                        <p class="intro-text">A page containing information about my attributes and personal qualities<br>Contact me for additional information</p>
-                        <a href="#about" class="btn btn-circle page-scroll">
+                        <h1 class="brand-heading wow rubberBand" data-wow-delay="1s">Portfolio</h1>
+                        <p class="intro-text wow bounceInUp">A page containing information about my attributes and personal qualities<br>Contact me for additional information</p>
+						<a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
                     </div>
@@ -94,8 +100,18 @@
     <!-- About Section -->
     <section id="about" class="container content-section text-center">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
+            <div class="col-lg-8 col-lg-offset-2 wow rubberBand flipInY ">
                 <h2>About Me</h2>
+<div class="w3-content" style="max-width:800px;position:relative">
+<img class="mySlides" src="img/image0.jpg" style="width:100%">
+<img class="mySlides" src="img/image1.png" style="width:100%">
+<img class="mySlides" src="img/image2.jpg" style="width:100%">
+<img class="mySlides" src="img/image3.jpg" style="width:100%">
+<img class="mySlides" src="img/image4.jpg" style="width:100%">
+<i class="fa fa-arrow-left fa-3x" style="position:absolute;top:45%;left:0" onclick="plusDivs(-1)" aria-hidden="true"></i>
+<i class="fa fa-arrow-right fa-3x" style="position:absolute;top:45%;right:0" onclick="plusDivs(1)" aria-hidden="true"></i>
+
+</div>
                 <p> <br><br><a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
                 <p> </p>
                 <p>Grayscale includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p>
@@ -104,11 +120,12 @@
     </section>
 
     <!-- Download Section -->
-   	 <section id="download" class="content-section text-center">
-        <div class="download-section">
-            <div class="container">
+   	 <section id="download" class="content-section text-center wow rubberBand flipInY">
+        <div class="download-section4">
+            <div class="container download-sectiontest">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Education</h2>
+
                     <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
                     <a href="https://asu.edu" class="btn btn-default btn-lg">Visit Arizona State</a>
                 </div>
@@ -117,7 +134,7 @@
     </section>
 		   			 
 		<section id="portfolio" class="content-section text-center">
-        <div class="download-section">
+        <div class="download-section" >
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Portfolio</h2>
@@ -134,10 +151,11 @@
 				<div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Resume</h2>
-                <p> Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
-                <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
+				
+				<p> Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
+                <p><a href="Hunter_Resume.pdf" download="newfilename" class="btn btn-default btn-lg">Download the pdf</a>
                 </p>
-								<embed src="Hunter_Resume.pdf" width="800px" height="1200px">
+								<embed src="Hunter_Resume.pdf" width="800px" height="1100px">
             </div>
         </div>
     </section>
@@ -163,7 +181,7 @@
                         <a href="https://www.facebook.com/hunter.hardwick.7" class="btn btn-default btn-lg"><i class="fa fa-facebook-square"></i> <span class="network-name">FaceBook</span></a>
                     </li>
 										<li>
-                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-linkedin-square" aria-hidden="true"></i> <span class="network-name">Linkedin</span></a>
+                        <a href="https://www.linkedin.com/in/hunter-hardwick-05b739119?trk=hp-identity-name" class="btn btn-default btn-lg"><i class="fa fa-linkedin-square" aria-hidden="true"></i> <span class="network-name">Linkedin</span></a>
                     </li>
                 </ul>
                 </div>
@@ -173,8 +191,9 @@
 
     <!-- Footer -->
     <footer>
-        <div class="container text-center">
-            <p> Hunter Hardwick Portfolio 2016</p>
+        <div class="container">
+            <p style= "color:#42dca3"> <i class="fa fa-copyright" aria-hidden="true"></i> 2016 Hunter
+			<a class="right" style="color:#42dca3" href="https://github.com/HunterHardwick/hunterhardwick.github.io"> <i class="fa fa-code" aria-hidden="true"></i> Github </a>
         </div>
     </footer>
 

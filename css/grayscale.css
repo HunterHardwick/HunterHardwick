@@ -260,7 +260,12 @@ a:focus {
 .content-section {
     padding-top: 100px;
 }
-
+.right{
+	float: right !important;
+}
+.left{
+	float: left !important;
+}
 .download-section {
     width: 100%;
     padding: 50px 0;
@@ -272,6 +277,27 @@ a:focus {
     background-size: cover;
     -o-background-size: cover;
 }
+.download-section4 {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.download-sectiontest {
+	padding: 100px 0;
+	background: url(../img/asu.jpg) no-repeat center center scroll;
+    color: #fff;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 /**This is an additional section for my contact us form picture**/
 .download-section2 {
     width: 100%;
@@ -296,6 +322,7 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
 }
 
 #map {
